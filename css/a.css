@@ -1,0 +1,39 @@
+body {
+    background: snow;
+}
+
+.calculator {
+    max-width: 500px;
+     margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: lavenderblush;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+button:hover {
+    background: lavender;
+}
+
+.result {
+    margin-top: 2rem;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+}

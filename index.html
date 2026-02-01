@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/a.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>BMI Calculator</h1>
+    </header>
+
+    <main>
+        <section class="calculator">
+            <form id="bmiForm">
+                <label for="weight">Weight (kg) ej: 60</label>
+                <input type="number" id="weight" step="0.1" required>
+
+                <label for="height">Height (m) ej: 1.70</label>
+                <input type="number" id="height" step="0.1" required>
+
+                <button type="button" onclick="calculateBMI()">Calculate BMI</button>
+            </form>
+            <p id="result"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 BMI Calculator - Hailie Mountain</p>
+    </footer>
+
+    <script src="js/code.js"></script>
+</body>
+
+</html>
